@@ -1,0 +1,21 @@
+import { Render, Search, Profile } from "./style";
+
+export function Header (){
+  return(
+    <Render>
+      <h1 class="logo"> <span>2</span>PLAY</h1>
+
+      <Search>
+        <input type="text" placeholder="Pesquisar por título"/>
+      </Search>  
+  
+      <Profile>
+        <div>
+          <p>Matheus Borges</p>
+          <a href="#">Sair</a>
+        </div>
+        <img src="https://github.com/MbSlash.png" alt="Imagem do usuário" />
+      </Profile>
+    </Render>
+  )
+}
