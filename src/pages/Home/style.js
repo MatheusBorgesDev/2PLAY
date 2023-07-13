@@ -3,6 +3,8 @@ import styled from "styled-components";
 export const Render = styled.main`
   
   > main {
+    display: flex;
+    flex-direction: column;
     width: auto;
     margin: 3.15rem 6.6rem;
 
@@ -10,6 +12,7 @@ export const Render = styled.main`
       display: flex;
       align-items: center;
       justify-content: space-between;
+      margin-bottom: 2.34rem;
 
       > h1 {
         font-size: 2rem;
@@ -21,9 +24,12 @@ export const Render = styled.main`
         width: 13rem;
       }
 
-    > .note_wrapper {
-      
     }
+    
+    .notes_wrapper{
+      display: flex;
+      flex-direction: column;
+      gap: 1.5rem;
     }
   }
 `

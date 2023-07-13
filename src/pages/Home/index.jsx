@@ -15,7 +15,9 @@ export function Home (){
           <Button title=" + Adicionar filmes" />
         </div>
 
-        <div class="note_wrapper">
+        <div class="notes_wrapper">
+          <FilmNote title="Interestellar" content="" />
+          <FilmNote title="Interestellar" content="" />
           <FilmNote title="Interestellar" content="" />
         </div>
       </main>
