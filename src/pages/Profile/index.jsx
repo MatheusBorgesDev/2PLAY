@@ -13,7 +13,7 @@ export function Profile(){
 
       <Form >
         <Avatar>
-          <img src="https://github.com/MbSlash.png" alt="Imagem do usuário" />
+          <img src="https://github.com/MatheusBorgesDev.png" alt="Imagem do usuário" />
           
           <label htmlFor="avatar">
 

@@ -14,7 +14,7 @@ export function Header (){
           <p>Matheus Borges</p>
           <a href="#">Sair</a>
         </div>
-        <img src="https://github.com/MbSlash.png" alt="Imagem do usuário" />
+        <img src="https://github.com/MatheusBorgesDev.png" alt="Imagem do usuário" />
       </Profile>
     </Render>
   )

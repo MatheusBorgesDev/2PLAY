@@ -27,8 +27,8 @@ export const Form = styled.form`
   max-width: 22rem;
   margin: auto;
 
-  > div:nth-child(4){
-      margin-top: 1.5rem;
+  > div:nth-child(3){
+      margin-bottom: 1.5rem;
   }
 
   > div:nth-child(5){

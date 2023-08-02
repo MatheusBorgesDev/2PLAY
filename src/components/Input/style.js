@@ -20,7 +20,6 @@ export const Render = styled.div`
     
     width: 100%;
     height: 3.5rem;
-    padding: 1rem;
 
     background: transparent;
     border: none;
