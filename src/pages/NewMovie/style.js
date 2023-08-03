@@ -39,7 +39,7 @@ export const Render = styled.main`
       display: flex;
       align-items: center;
       gap: .5rem;
-      padding: 0 1rem;
+      padding-right: 1.5rem;
       
     }
       svg, a {
@@ -64,7 +64,7 @@ export const Form = styled.form`
   flex-direction: column;
   gap: 2.5rem;
 
-  padding: 1.5rem;
+  padding-right: 1.5rem;
 
   .movie_inputs {
 
