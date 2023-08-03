@@ -8,13 +8,13 @@ import { SignIn } from './pages/SignIn'
 import { SignUp } from './pages/SignUp'
 import { Home } from './pages/Home'
 import { Profile } from './pages/Profile'
-import { CreateMovie } from './pages/CreateMovie'
+import { NewMovie } from './pages/NewMovie'
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
     <ThemeProvider theme={theme}>
       <GlobalStyles />
-       <CreateMovie />
+       <NewMovie />
     </ThemeProvider>
   </React.StrictMode>,
 )

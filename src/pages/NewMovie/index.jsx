@@ -1,11 +1,11 @@
 import { Header } from "../../components/Header";
 import { FiArrowLeft, FiX } from "react-icons/fi"
 import { Input } from "../../components/Input";
-import { Tag } from "../../components/Tag"
+import { TagAddRemove } from "../../components/TagAddRemove"
 import { Button } from "../../components/Button"
 import { Render, Form } from "./style"
 
-export function CreateMovie (){
+export function NewMovie (){
   return(
     <Render>
       <Header />
@@ -34,11 +34,11 @@ export function CreateMovie (){
 
             <div class="tag_wrapper">
 
-              <Tag  title="React">
+              <TagAddRemove value="Comédia" role="textbox" contenteditable>
                 
-              </Tag>
+              </TagAddRemove>
               
-              <Tag title="Novo marcador" />
+              <TagAddRemove placeholder='Novo marcador' isNew />
       
             </div>
 

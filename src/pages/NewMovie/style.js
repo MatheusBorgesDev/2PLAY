@@ -2,10 +2,19 @@ import styled from "styled-components";
 
 export const Render = styled.main`
 
-  
   > main {
     max-width: 100%;
     margin: 2.5rem 7.7rem;
+
+    > div {
+      display: flex;
+      align-items: center;
+      gap: .5rem;
+    }
+      svg, a {
+      color: ${({ theme }) => theme.COLORS.PINK};
+    }
+
   }
 
 `
@@ -46,7 +55,11 @@ export const Form = styled.form`
     }
   }
 
-   textarea {
+  input[type=number]::-webkit-inner-spin-button { 
+    -webkit-appearance: none;
+  }
+
+  textarea {
     color: ${({ theme }) => theme.COLORS.WHITE};
     
     width: 100%;
@@ -65,17 +78,24 @@ export const Form = styled.form`
     color: ${({ theme }) => theme.COLORS.GRAY_800};
     margin-bottom: 1.5rem;
   }
-
+  
   .tag_wrapper {
     height: 3.5rem;
 
     display: flex;
     flex-direction: row;
     gap: 1.5rem;
+
+    svg {
+      width: 1.5rem;
+      height: 1.5rem;
+     }
   }
 
   .new_movie_buttons{
     display: flex;
     gap: 2.5rem;
   }
+
+  
 `
