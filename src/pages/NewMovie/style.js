@@ -2,14 +2,45 @@ import styled from "styled-components";
 
 export const Render = styled.main`
 
+
+  width: 100%;
+  height: 100vh;
+  overflow-y: hidden;
+
+  display: grid;
+  grid-template-rows: 7.2rem auto;
+  grid-template-areas: 
+    "header"
+    "backlink"
+    "content";
+
   > main {
+    grid-area: content;
+
     max-width: 100%;
     margin: 2.5rem 7.7rem;
+
+    overflow-y: scroll;
+
+   ::-webkit-scrollbar {
+      background-color: transparent;
+      width: .5rem;
+      border-radius: 5px;
+    }
+    
+    ::-webkit-scrollbar-thumb {
+      background-color: ${({ theme }) => theme.COLORS.PINK};
+      border-radius: 5rem;
+      
+    }
+    
 
     > div {
       display: flex;
       align-items: center;
       gap: .5rem;
+      padding: 0 1rem;
+      
     }
       svg, a {
       color: ${({ theme }) => theme.COLORS.PINK};
@@ -21,6 +52,7 @@ export const Render = styled.main`
 
 export const Form = styled.form`
   
+
   h1 {
     color: ${({ theme }) => theme.COLORS.WHITE};
     font-size: 2.25rem;
@@ -31,6 +63,8 @@ export const Form = styled.form`
   display: flex;
   flex-direction: column;
   gap: 2.5rem;
+
+  padding: 1.5rem;
 
   .movie_inputs {
 

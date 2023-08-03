@@ -1,9 +1,11 @@
 import styled from "styled-components";
 
 export const Render = styled.header`
-  display: flex;
-  width: 100vw;
+  grid-area: header;
+  width: 100%;
   height: 7.2rem;
+
+  display: flex;
   padding: 1.5rem 7.69rem;
   align-items: center;
   justify-content: space-between;
@@ -15,6 +17,7 @@ export const Render = styled.header`
 `
 
 export const Search = styled.div`
+
     display: flex;
     width: 100%;
     padding: 1.2rem 1.5rem;
