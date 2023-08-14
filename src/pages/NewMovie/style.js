@@ -25,7 +25,6 @@ export const Render = styled.main`
    ::-webkit-scrollbar {
       background-color: transparent;
       width: .5rem;
-      border-radius: 5px;
     }
     
     ::-webkit-scrollbar-thumb {
