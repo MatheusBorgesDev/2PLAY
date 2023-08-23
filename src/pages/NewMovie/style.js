@@ -41,6 +41,7 @@ export const Render = styled.main`
       padding-right: 1.5rem;
       
     }
+    
       svg, a {
       color: ${({ theme }) => theme.COLORS.PINK};
     }

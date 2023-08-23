@@ -1,5 +1,5 @@
+import { FiArrowLeft } from "react-icons/fi"
 import { Header } from "../../components/Header";
-import { FiArrowLeft, FiX } from "react-icons/fi"
 import { Input } from "../../components/Input";
 import { TagAddRemove } from "../../components/TagAddRemove"
 import { Button } from "../../components/Button"
