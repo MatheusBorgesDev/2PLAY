@@ -1,4 +1,5 @@
 import styled from "styled-components";
+import { Link } from "react-router-dom"
 
 export const Render = styled.main`
 
@@ -56,4 +57,6 @@ export const Render = styled.main`
       gap: 1.5rem;
     }
   }
+`
+export const NewMovie= styled(Link)`
 `

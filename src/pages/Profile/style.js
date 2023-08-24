@@ -4,14 +4,14 @@ export const Render = styled.div`
   width: 100%;
 
   > header {
-    display: flex;
-    align-items: center;
-    gap: .5rem;
     height: 9rem;
     padding: 4rem 9rem;
     background: ${({ theme }) => theme.COLORS.BACKGROUND_700};
 
     > svg, a {
+      display: flex;
+      align-items: center;
+      gap: .5rem;
       color: ${({ theme }) => theme.COLORS.PINK};
     }
 

@@ -1,7 +1,7 @@
 import { Header } from "../../components/Header";
 import { Button } from "../../components/Button"
 import { FilmNote } from "../../components/FilmNote"
-import { Render } from "./style";
+import { Render, NewMovie } from "./style";
 
 export function Home (){
   return(
@@ -12,7 +12,9 @@ export function Home (){
       <main>
         <div>
           <h1>Meus filmes</h1>
-          <Button title=" + Adicionar filmes" />
+          <NewMovie to="/new"> 
+            <Button title="+ Adicionar filmes" />
+          </NewMovie>
         </div>
 
         <div class="notes_wrapper">

@@ -1,4 +1,5 @@
 import { FiArrowLeft } from "react-icons/fi"
+import { Link } from "react-router-dom"
 import { Header } from "../../components/Header";
 import { Input } from "../../components/Input";
 import { TagAddRemove } from "../../components/TagAddRemove"
@@ -11,11 +12,9 @@ export function NewMovie (){
       <Header />
 
       <main>
-        <div>
-          <FiArrowLeft /> <a href="#">Voltar</a> 
-        </div>
 
-
+        <Link to="/"> <FiArrowLeft /> Voltar </Link>
+        
         <Form>
 
           <h1>Novo filme</h1>

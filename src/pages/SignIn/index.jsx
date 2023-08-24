@@ -1,8 +1,9 @@
 import { Render, Form, Background } from "./style"
 import { FiMail, FiLock } from "react-icons/fi"
+import { Link } from "react-router-dom"
 import { Input } from "../../components/Input"
 import { Button } from "../../components/Button"
-import { ButtonText } from "../../components/ButtonText"
+
 
 
 export function SignIn(){
@@ -20,7 +21,7 @@ export function SignIn(){
 
           <Button title="Entrar"/>
 
-          <a href="/"> Criar conta</a>
+          <Link to="/register"> Criar conta </Link>
         </Form>
         <Background />
     </Render>

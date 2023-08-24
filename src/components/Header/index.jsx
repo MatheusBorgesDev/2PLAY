@@ -1,4 +1,5 @@
 import { Render, Search, Profile } from "./style";
+import { Link } from "react-router-dom"
 
 export function Header (){
   return(
@@ -12,10 +13,14 @@ export function Header (){
       <Profile>
         <div>
           <p>Matheus Borges</p>
-          <a href="#">Sair</a>
+          <Link to="#">Sair</Link>
         </div>
-        <img src="https://github.com/MatheusBorgesDev.png" alt="Imagem do usuário" />
+
+        <Link to="/profile">
+          <img src="https://github.com/MatheusBorgesDev.png" alt="Imagem do usuário" />
+        </Link>
       </Profile>
+
     </Render>
   )
 }

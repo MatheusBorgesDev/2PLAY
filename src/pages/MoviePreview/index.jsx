@@ -1,4 +1,5 @@
 import { FiArrowLeft, FiClock } from "react-icons/fi"
+import { Link } from "react-router-dom"
 import { Render } from "./style"
 import { Header } from "../../components/Header"
 import { StarRank } from "../../components/StarRank"
@@ -12,7 +13,7 @@ export function MoviePreview (){
       <main>
         
         <div class="back_link">
-        <FiArrowLeft /> <a href="#">Voltar</a> 
+          <Link to="/"> <FiArrowLeft /> Voltar </Link>
         </div>
         
         <div>

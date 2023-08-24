@@ -55,10 +55,13 @@ export const Render = styled.div `
       border-radius: 50%;
     }
 
-    .back_link {
-      svg, a {
-        color: ${({ theme }) => theme.COLORS.PINK};
-      }
+    
+    svg, a {
+      display: flex;
+      align-items: center;
+      gap: .5rem;
+      color: ${({ theme }) => theme.COLORS.PINK};
+    
     }
   }
 `

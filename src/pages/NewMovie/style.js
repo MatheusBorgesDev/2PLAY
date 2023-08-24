@@ -32,17 +32,11 @@ export const Render = styled.main`
       border-radius: 5rem;
       
     }
-    
-
-    > div {
+        
+      svg, a {
       display: flex;
       align-items: center;
       gap: .5rem;
-      padding-right: 1.5rem;
-      
-    }
-    
-      svg, a {
       color: ${({ theme }) => theme.COLORS.PINK};
     }
 
