@@ -3,7 +3,7 @@ import styled from "styled-components";
 export const Render = styled.div`
   display: flex;
   align-items: center;
-  padding: .5rem;
+  padding: .75rem;
   
   
   width: 100%;
